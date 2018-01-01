@@ -241,7 +241,7 @@ def orders_matchresults(symbol, types=None, start_date=None, end_date=None, _fro
 
 
 # 申请提现虚拟币
-def withdraw(address_id, amount, currency, fee=0, addr-tag=""):
+def withdraw(address_id, amount, currency, fee=0, addr_tag=""):
     """
 
     :param address_id: 
@@ -258,7 +258,7 @@ def withdraw(address_id, amount, currency, fee=0, addr-tag=""):
               'amount': amount,
               "currency": currency,
               "fee": fee,
-              "addr-tag": addr-tag}
+              "addr-tag": addr_tag}
     url = '/v1/dw/withdraw/api/create'
 
     return api_key_post(params, url)

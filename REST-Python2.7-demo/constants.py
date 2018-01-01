@@ -1,0 +1,1 @@
+HUO_BI_EXCHANGE = 'huobi'
